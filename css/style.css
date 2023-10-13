@@ -1,0 +1,225 @@
+body {
+    top: 0 !important;
+}
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: #f9f9fd;
+}
+  .skiptranslate {
+    display: none;
+    height: 0;
+}
+  .language__img {
+    cursor: pointer;
+}
+.header {
+    position: fixed;
+    background-color: white;
+    top: 0;
+    z-index: 100; 
+    box-shadow: 0px -5px 10px 0px rgba(0, 0, 0, 0.5);
+    width: 100%; 
+    height: 72px;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+.header-section {
+    display: flex;
+    align-items: center;
+    padding-left: 81px;
+    margin-right: 87px;
+}
+.logo {
+    align-self: center;
+}
+.enter-button {
+    align-self: center;
+    margin-right: 16px ;
+}
+.main {
+    padding: 72px 87px 0 81px;
+}
+.search {
+    display: flex;
+    flex-direction:row;
+    margin-top: 58px;
+    margin-bottom: 54px;
+    width: 95%;
+    padding: 10px 0px 10px 10px;
+    box-sizing: border-box;
+    border: 2px solid #626262;
+    -webkit-border-radius: 6px 6px 6px 6px;
+    -moz-border-radius: 6px 6px 6px 6px;
+    border-radius: 6px 6px 6px 6px;
+    color: #626262;
+    font: 1em Roboto, sans-serif;
+}
+input {
+    width: 95%;
+    padding: auto;
+    border: none;
+    outline: 0;
+}
+.reset-search {
+    font-size: 2rem;
+    cursor: pointer;
+}
+.label {
+    font-size: 22px;
+}
+.cafe {
+    display: block;
+    max-height: 366px;
+    margin: 8px;
+    text-align: left;
+}
+.cafe:hover {
+    background-color: #FFFFFF;
+    background-color: #D8D8D8;
+    box-shadow: 1px 1px 3px 0px black;
+    -webkit-transform: scale(1.01);
+    -ms-transform: scale(1.01);
+    transform: scale(1.01);
+}
+.name {
+    color: #1D1D1D;
+    font-size: 16px;
+}
+.desc {
+    color: #626262;
+    font-size: 14px;
+}
+.time {
+    color: #1D1D1D;
+    font-size: 13px;
+}
+.cafe img {
+    width: 308px;
+    height: 256px;
+    object-fit: cover;
+}
+.cafe-container {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+.arrow {
+    position: fixed;
+    max-height: 80px;
+    max-width: 80px;
+    bottom: 24px;
+    right: 16px;
+}
+.footer {
+    background-color: #262626;
+    width: 100%;
+    padding-left: 81px;
+}
+.footer-logo {
+    padding-top: 40px;
+}
+.line {
+    width: 90%;
+    margin: 40px 0 40px 0;
+    border-bottom: 1px solid white;
+}
+.appstore-google {
+    display: flex;
+    justify-content: center;
+}
+.appstore-google .appstore {
+    padding-right: 40px;
+}
+.links {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 70%;
+}
+.link-ref {
+    text-decoration: none;
+    color: white;
+    margin-bottom: 23px;
+}
+.first-column, .second-column, .third-column {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.language {
+    background-color: #3B3B3B;
+    color: white;
+    padding-left: 54px ;
+    height: 40px;
+    width: 228px;
+    border: 0;
+    background-image: url('footer_img/world.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.hashtag {
+    padding-top: 33px;
+    padding-bottom: 17px;
+}
+.hash {
+    font-size: 16;
+    color: #49A144;
+}
+.hashtag .name {
+    font-size: 16;
+    color: white;
+}
+.rights {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    padding-bottom: 40px;
+    vertical-align: middle;
+}
+.right {
+    color: #FFFFFF;
+    margin-right: 148px; 
+    font-size: 11px;
+}
+.registration-modal {
+    position: fixed;
+    display: none;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.registration>input {
+    border: 2px solid #626262;
+    margin-right: 20px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 1px 1px 1px 1px;
+    border-radius: 3px;
+}
+.modal-item {
+    padding: 15px 15px 15px 15px;
+    margin: 0px 15px 0px 15px;
+}
+.modal-buttons {
+    margin: 15px 15px 15px 15px;
+}
+.close-modal {
+    padding: 15px 15px 15px 15px;
+    font-size: 3rem;
+}
+.modal-logo {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px 15px 15px;
+}
