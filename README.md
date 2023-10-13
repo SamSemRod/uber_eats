@@ -1,2 +1,2 @@
 # uber_eats
-Uber Eats (study)
+Uber Eats (study project HTML, CSS, JS)
